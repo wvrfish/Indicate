@@ -6,6 +6,7 @@
 //  Copyright © 2021 Philip Kluz. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 // MARK: Indicate > Content
@@ -116,3 +117,5 @@ extension Indicate.Configuration {
         return Indicate.Configuration(tap: tap, appeared: appeared, dismissed: dismissed, duration: duration, size: size, contentPadding: contentPadding, horizontalItemSpacing: horizontalItemSpacing)
     }
 }
+
+#endif

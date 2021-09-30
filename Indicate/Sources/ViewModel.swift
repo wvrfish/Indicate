@@ -6,6 +6,7 @@
 //  Copyright © 2021 Philip Kluz. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 extension Indicate {
@@ -124,3 +125,5 @@ extension Indicate {
         }
     }
 }
+
+#endif
